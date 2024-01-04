@@ -18,5 +18,10 @@ RUN:
     ./hello.py
 
 """
+# METADADOS, variáveis de distribuíções com (Dunder). 
+__version__= "0.0.1"
+__author__= "Bruno Rocha"
+__license__= "unlicense"
+
 print("Hello Word".upper())
 print("Bruno Rocha")
